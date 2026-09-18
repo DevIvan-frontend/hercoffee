@@ -23,11 +23,14 @@ python -m http.server 5173
 
 y entra a <http://localhost:5173>.
 
-## Cómo publicarlo
+## Dónde está publicado
 
-Sube la carpeta completa (tal cual) a Netlify, Vercel, GitHub Pages, cPanel, etc. No necesita compilarse.
-Al publicar, cambia en `index.html` la etiqueta `og:image` por la URL absoluta final
-(por ejemplo `https://tudominio.com/assets/img/og.jpg`) para que se vea la foto al compartir el enlace.
+- Repositorio: <https://github.com/DevIvan-frontend/hercoffee>
+- Sitio en vivo (GitHub Pages, rama `main`): <https://devivan-frontend.github.io/hercoffee/>
+
+Cada `git push` a `main` vuelve a publicar el sitio en uno o dos minutos. Si más adelante se usa un dominio propio
+(p. ej. `hercoffee.com.mx`), configúralo en *Settings → Pages → Custom domain* y actualiza `og:image` y `og:url` en `index.html`.
+También puede subirse la carpeta tal cual a Netlify, Vercel o cPanel; no necesita compilarse.
 
 ## Idioma
 
